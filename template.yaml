@@ -23,6 +23,17 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+    - title: Enter owner's email address
+      required:
+        - owner
+      properties:
+        owner:
+          title: Owner
+          type: string
+          description: Owner of the component
+          ui:autofocus: true
+          ui:options:
+            rows: 5
     - title: Choose a location
       required:
         - repoUrl
@@ -43,6 +54,7 @@ spec:
         url: https://github.com/sang-w0o/backstage-template-example-repo
         values:
           name: ${{ parameters.name }}
+          owner: ${{ parameters.owner }}
 
     - id: publish
       name: Publish
