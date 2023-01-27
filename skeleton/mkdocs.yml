@@ -1,4 +1,4 @@
-site_owner: ${{ values.owner }}
+site_name: ${{ values.name }}
 site_description: ${{ values.description }}
 nav:
   - Introduction: index.md

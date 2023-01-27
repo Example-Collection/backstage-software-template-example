@@ -1,3 +1,5 @@
+## ${{ values.name }}
+
 ${{ values.description }}
 
 ## Get started with your Go HTTP Server!
