@@ -1,4 +1,4 @@
-site_name: "${{ values.owner }}'s HTTP Server"
+site_owner: ${{ values.owner }}
 site_description: ${{ values.description }}
 nav:
   - Introduction: index.md
