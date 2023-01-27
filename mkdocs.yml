@@ -1,0 +1,6 @@
+site_name: "${{ values.owner }}'s HTTP Server"
+site_description: ${{ values.description }}
+nav:
+  - Introduction: index.md
+plugins:
+  - techdocs-core

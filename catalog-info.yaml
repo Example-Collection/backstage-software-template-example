@@ -6,3 +6,6 @@ spec:
   type: server
   lifecycle: experimental
   owner: ${{ values.owner | dump }}
+annotations:
+  backstage.io/techdocs-ref: dir:.
+
