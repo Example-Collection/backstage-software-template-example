@@ -58,11 +58,10 @@ spec:
               - github.com
   steps:
     - id: fetch-base
-      name: Fetch Base
+      name: Fetch Skelecton code + template
       action: fetch:template
       input:
-        targetPath: .
-        url: https://github.com/sang-w0o/backstage-template-example-repo
+        url: ./skeleton
         values:
           name: ${{ parameters.name }}
           owner: ${{ parameters.owner }}
