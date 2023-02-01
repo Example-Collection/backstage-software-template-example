@@ -4,6 +4,8 @@ metadata:
   name: go-http-server-template
   title: Go HTTP Server Template
   description: 'Start developing HTTP server with this template, using Go!'
+  annotations:
+    backstage.io/techdocs-ref: dir:./skeleton
   tags:
     - recommended
     - server
